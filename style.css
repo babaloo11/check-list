@@ -77,3 +77,10 @@ button img{
     border-radius: 50%;
     background-color: white;
 }
+.instrukcia{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 15px;
+}
