@@ -1,0 +1,79 @@
+ul{
+    list-style-type:none;
+}
+body{
+    font-family: 'Amatic SC', cursive;
+    background: -webkit-linear-gradient(90deg, #8c00ff,#de02d7);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #8c00ff,#de02d7);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    color: white;   
+    text-align: center;             
+    background-size: 200% 200%;
+    animation: dedushka 7s ease infinite ;                           
+}
+@keyframes dedushka{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    background-color:rgba(255, 255, 255, 0);
+    cursor:pointer;
+    transition: 0.7s;
+    color: white;
+}
+button:hover{
+    background-color:rgba(255, 255, 255, 0.2) ;
+}
+li{
+    text-align: left;
+    font-size: 25px;
+    padding: 5px;
+}
+div{
+    width:250px;
+    margin:0 auto;
+}
+input{
+    background-color: rgba(255, 255, 255, 0);
+color: white;
+border-color: white;
+padding: 5px;
+border-radius: 7px;
+}
+input::placeholder{
+    color: white;
+
+}
+img{
+    width: 0;
+    transition: 0.5s;
+}
+li:hover img{
+    width: 20px;
+    
+}
+ul li:nth-child(event){
+    background: black;
+}
+.TRUMP{
+    text-decoration: line-through;
+    color: gray;
+}
+button img{
+    width: 25px;
+    position: relative;
+    top: 8px;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    background-color: white;
+}
